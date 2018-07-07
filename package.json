@@ -1,9 +1,9 @@
 {
-  "name": "command-throttle",
+  "name": "container-throttle",
   "version": "1.0.0",
   "description": "A package to manage event based throttling",
   "main": "dist/index.js",
-  "repository": "git@github.com:RumbleFrog/command-throttle.git",
+  "repository": "git@github.com:RumbleFrog/container-throttle.git",
   "author": "RumbleFrog <xxlosttechxx@gmail.com>",
   "license": "MIT",
   "devDependencies": {
