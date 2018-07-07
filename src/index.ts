@@ -21,8 +21,8 @@ export class Throttle {
         this._throttles = new Map();
     }
 
-    public throttle(options: ThrottleOption) {
-        if (this._whitelist.includes(options.id)) return false;
+    public throttle(options: ThrottleOption): boolean {
+        if (this._whitelist.includes(options.id)) return true;
 
         let container = this._throttles.get(options.container);
 
