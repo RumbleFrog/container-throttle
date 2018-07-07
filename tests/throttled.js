@@ -1,4 +1,4 @@
-const { Throttle } = require('../dist');
+const { Throttle }  = require('../dist');
 
 function r() {
     let t = new Throttle();
