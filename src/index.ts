@@ -13,16 +13,16 @@ interface Throttler {
 
 export class Throttle {
 
-    private _whitelist: Array<string>;
+    public Whitelist: Array<string>;
     private _throttles: Map<string, Map<string, Throttler>>;
 
     constructor(whitelist?: Array<string>) {
-        this._whitelist = whitelist || [];
+        this.Whitelist = whitelist || [];
         this._throttles = new Map();
     }
 
     public throttle(options: ThrottleOption): boolean {
-        if (this._whitelist.includes(options.id)) return true;
+        if (this.Whitelist.includes(options.id)) return true;
 
         let container = this._throttles.get(options.container);
 

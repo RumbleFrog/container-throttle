@@ -1,6 +1,6 @@
 {
   "name": "container-throttle",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A package to manage event based throttling",
   "main": "dist/index.js",
   "repository": "git@github.com:RumbleFrog/container-throttle.git",
