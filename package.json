@@ -1,4 +1,11 @@
 {
+  "name": "event-throttle",
+  "version": "1.0.0",
+  "description": "A package to manage event based throttling",
+  "main": "dist/index.js",
+  "repository": "git@github.com:RumbleFrog/throttle.git",
+  "author": "RumbleFrog <xxlosttechxx@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^10.5.2"
   }
